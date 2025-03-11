@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package fibonacci;
+
+service Fibonacci {
+  rpc Fib(FibRequest) returns (FibResponse);
+}
+
+message FibRequest { int64 number = 1; }
+message FibResponse { int64 result = 1; }
