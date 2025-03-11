@@ -1,4 +1,4 @@
-# Tonic Fibo
+# Tonic Fibonacci
 
 Fibonacci rGRC calculation using `tonic`.
 
